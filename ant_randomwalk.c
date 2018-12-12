@@ -1,4 +1,4 @@
-//課題7 2610180082 水野　響
+
 
 #include <stdio.h>
 #include <glsc.h>
