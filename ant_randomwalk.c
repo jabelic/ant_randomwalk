@@ -35,10 +35,10 @@ int main(void){
         g_move(-0.5,j-0.5);
         g_plot(IMAX+0.5,j-0.5);   
     }
-    //i,jの初期値の設定
-    i=IMAX/2;
-    j=JMAX/2;
     for(int m=1; m<M; m++){
+        //i,jの初期値の設定
+        i=IMAX/2;
+        j=JMAX/2;
         for(int k=0;k<N;k++){
             g_marker_type(-1);
             g_marker_color(G_RED);
